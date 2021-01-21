@@ -1,0 +1,42 @@
+.Project_Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 5%;
+    background-color: rgb(219, 219, 219);
+}
+
+.Project_Item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 4%; 
+}
+
+.Project_Item img{
+    width: 90%;
+    height: 80%;
+    margin: 10%;
+}
+
+.Project_Item h1{
+    text-align: center;
+    margin: 10%;
+}
+
+.Project_Item p{
+    text-align: center;
+    line-height:30px;
+    margin: 10%;
+}
+
+@media (max-width: 500px){
+    .Project_Item {
+        width: 280px;
+    }
+}

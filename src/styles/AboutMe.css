@@ -1,0 +1,119 @@
+#AboutMe_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#AboutMe_Container #Menu_Container .Button a{
+    color: #000;
+}
+
+#AboutMe_Container #Menu_Container .Contact a{
+    color: #fff;
+}
+
+#AboutMe_Container a,h1,h2,h3, p{
+    color: #000;
+}
+
+.FirstBlock{
+    margin-top: 0.3%;
+}
+
+#Quote_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #EDEDED;
+    width: 100%;
+}
+
+#Quote_Container p{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 235%;
+    line-height: 60px;
+    margin: 0 6% 0 6%;
+    width: 50%;
+}
+
+.Quotes{
+    padding: 2%;
+    width: 10%;
+    height: 120px;
+}
+
+#Quote_Line{
+    width: 70%;
+    height: 5px;
+    margin-top: 1.2%;
+    border-radius: 5px;
+    background-color: #129BFF;
+}
+
+#AboutMe_Description{
+    width: 98%;
+    text-align: center;
+    margin-top: 1.2%;
+    padding: 1%;
+    font-size: 35px;
+    background-color: #EDEBEB;
+}
+
+#AboutMe_Img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#AboutMe_Img img{
+    width: 160px;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#AboutMe_Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#AboutMe_Text p{
+    width: 90%;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#AboutMe_BackgroundImg{
+    background-image: url('../images/AboutMeBackground.jpg');
+    background-position: center center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+}
+
+@media(max-width: 800px){
+    #AboutMe_Container #Menu_Container .Button a{
+        color: #fff;
+    }
+}
+
+@media(max-width: 500px){
+    #AboutMe_Text p{
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,43 @@
+#ContactMe_Container #Menu_Container .Button a{
+    color: #000;
+}
+
+#ContactMe_Container #Menu_Container .Contact a{
+    color: #fff;
+}
+
+#ContactMe_Description h1{
+    font-size: 60px;
+}
+
+#Form_Data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.3%;
+    background-color: #EDEBEB;
+    width: 100%;
+}
+
+#Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3% 0 3% 0;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media(max-width: 800px){
+    #ContactMe_Container #Menu_Container .Button a{
+        color: #fff;
+    }
+    .Item_Button input{
+        width: 35%;
+    }
+    #ContactMe_Description h1{
+        font-size: 50px;
+    }
+}

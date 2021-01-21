@@ -1,0 +1,58 @@
+#Menu_Container{
+    opacity: 0;
+    animation-name: Fase1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.Description, #Form_Data{
+    opacity: 0;
+    animation-name: Fase2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes Fase1{
+    10%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.4;
+    }
+    40%{
+        opacity: 0.6;
+    }
+    60%{
+        opacity: 0.8;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes Fase2{
+    30%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    70%{
+        opacity: 0.6;
+    }
+    90%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
